@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.header {
+	background-color: rgba(22, 22, 23, .8);
+	color: #fff;
+	text-align: center;
+	padding: 1px;
+	font-size: 11px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content {
+    flex: 2;
+    padding: 20px;
+    background-color: #ffffff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #fff;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.aside {
+    flex: 1;
+    background-color: rgba(22, 22, 23, .4);
+    color: #fff;
+    padding: 20px;
+}
+.aside a {
+	color: white;
+    text-decoration: none;
+
+}
+.aside li a{
+    font-size: 18px !important;
+ 
+}
+
+.aside li a:hover{
+    text-decoration: underline;
+}
+
+.aside li{
+    margin-top: 20px;
+}
+.footer {
+    background-color: rgba(22, 22, 23, .8);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.responsive-img {
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+p {
+    font-size: 16px; /* Set the font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    margin-bottom: 20px; /* Add some spacing between paragraphs */
+     /* Set the text color */
+}
+.container p{
+    color: #333;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+/* Media query for responsiveness */
+@media (max-width: 830px) {
+    .container {
+        flex-direction: column;
+    }
+    .main-content, .aside {
+        flex: auto;
+    }
+    .responsive-img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+   
+    .blog-post h3 {
+        font-size: 16px !important;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+/* Blog post styles */
+.blog-post {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.blog-post h3 {
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+}
+.blog-post p {
+    font-size: 16px;
+}
