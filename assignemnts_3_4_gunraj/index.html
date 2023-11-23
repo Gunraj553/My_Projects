@@ -1,0 +1,40 @@
+<!-- Author : Gunraj C0893229 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Currency Converter</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-bar">
+            <h2>US Dollar to Canadian Dollar</h2>
+            <h4>Convert USD to CAD at the real exchange rate.</h4>
+        </div>
+        <div class="form-wrapper">
+            <form id="currencyForm" onsubmit="return convertCurrency()">
+                <div class="parent-wrapper">
+                    
+                    <div class="conversion-container">
+                        <input type="number" id="usdAmount" name="amount" placeholder="Enter amount in USD">
+                        <label for="usdAmount">USD</label>
+                    </div>
+                    <div class="conversion-container">
+
+                        <input type="number" id="cadAmount" name="amount" placeholder="Enter amount in CAD">
+                        <label for="cadAmount">CAD</label>
+                    </div>
+
+                    
+                </div>
+
+                <button type="submit">Convert</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

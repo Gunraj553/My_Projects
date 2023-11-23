@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.title-bar{
+    background-color: darkblue;
+    color:white;
+    padding:40px 20px;
+}
+
+#currencyForm {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.conversion-container {
+	margin-bottom: 20px;
+	width: 50%;
+	display: flex;
+	margin-left: 9%;
+}
+.parent-wrapper{
+    display: flex;
+}
+
+label {
+	width: 6%;
+	margin-right: 10px;
+	text-align: right;
+	background-color: darkblue;
+	color: #fff;
+	padding: 8px;
+}
+
+input {
+	padding: 8px;
+
+	width: 30%;
+	border-radius: 0px;
+	border: 1px solid lightgray;
+}
+button {
+	font-size: 16px;
+	cursor: pointer;
+	background-color: darkblue;
+	color: #fff;
+	border: none;
+	float: right;
+	margin-right: 23%;
+	border-radius: 50%;
+	width: 10%;
+	padding: 10px 25px;
+}
