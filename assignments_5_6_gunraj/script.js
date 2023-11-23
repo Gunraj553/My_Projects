@@ -47,7 +47,7 @@ class Car {
     }
   }
   
-  // Create car instances
+ 
   const cars = [
     new Car("Honda", "CR-V", 2023, "Red", 50000, 45),
     new Car("Ford", "F-150", 2020, "Black", 25000, 30),
@@ -57,13 +57,13 @@ class Car {
     new Car("Kia", "Forte", 2020, "Blue", 21000, 56),
   ];
   
-  // Invoke honk method for each car
+
   cars.forEach(car => car.honk());
   
-  // Simulate the race
+
   cars.forEach(car => car.race());
   
-  // Determine and print the winner
+
   const remainingFuel = cars.map(car => car.gas);
   const winnerIndex = remainingFuel.indexOf(Math.max(...remainingFuel));
   
